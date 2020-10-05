@@ -1,0 +1,53 @@
+* {
+  background-color: white;
+}
+
+/* Text Formatting */
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.navbar-wrapper {
+  display: flex;
+}
+
+.navbar-wrapper li {
+  flex: 1;
+  background-color: blueviolet;
+}
+
+.search-bar {
+  flex-basis: 400px;
+}
+
+/* Main Section */
+
+.main-section {
+  max-width: 1440px;
+  height: 538px;
+  margin: 0 auto;
+  background-image: url("../images/apple-background.jpg");
+  background-position: center bottom;
+}
+
+/* Picture Links */
+
+.picture-links-wrapper {
+  display: flex;
+  max-width: 1440px;
+  margin: 1px auto;
+}
+
+.picture-anchors {
+  flex: 1;
+}
+
+.picture {
+  width: 100%;
+}
