@@ -45,9 +45,32 @@ ul {
 }
 
 .picture-anchors {
+  display: inline-block;
   flex: 1;
+  height: 200px;
+  width: auto;
+  background-position: center;
+  min-width: 256px;
+
+
 }
 
 .picture {
-  width: 100%;
+  height: 100%;
+}
+
+.picture-1 {
+  background-image: url("../images/apple-iphone5.jpg");
+}
+
+.picture-2 {
+  background-image: url("../images/apple-iphone5c.jpg");
+}
+
+.picture-3 {
+  background-image: url("../images/apple-mac30.jpg");
+}
+
+.picture-4 {
+  background-image: url("../images/apple-supplier.jpg");
 }
