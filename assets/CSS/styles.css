@@ -1,10 +1,9 @@
 * {
-  background-color: #fff;
   color: #fff;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  ;
+  font-size: .95em;
 }
 
 /* Text Formatting */
@@ -21,27 +20,32 @@ ul {
   transform: translate(-50%, 0);
   width: 980px;
   height: 36px;
-
+  background-color: transparent;
 }
 
 .navbar-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr) 200px;
   height: 100%;
-  text-align: center;
-  line-height: 2em;}
+}
 
 .navbar-wrapper li {
-  flex: 1;
   background-color: blueviolet;
-  border: 1px solid black
+  border: 1px solid black;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.logo-li img {
+  width: auto;
+  height: 90%;
 }
 
 .search-bar {
-  flex-basis: 400px;
+  /*! width: 200px; */
 }
-
-/* Main Section */
 
 .main-section {
   max-width: 1440px;
