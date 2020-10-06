@@ -1,28 +1,40 @@
 * {
-  background-color: white;
+  background-color: #fff;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  ;
 }
 
 /* Text Formatting */
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 .navbar {
-  width: 980px;
-  /*! margin: 0 auto; */
   position: absolute;
   top: 8%;
-  left: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 980px;
+  height: 36px;
+
 }
 
 .navbar-wrapper {
   display: flex;
-}
+  height: 100%;
+  text-align: center;
+  line-height: 2em;}
 
 .navbar-wrapper li {
   flex: 1;
   background-color: blueviolet;
+  border: 1px solid black
+
 }
 
 .search-bar {
@@ -33,10 +45,40 @@ ul {
 
 .main-section {
   max-width: 1440px;
-  height: 640px;
+  min-height: 538px;
+  max-height: 1315px;
   margin: 0 auto;
+  padding-top: 10%;
   background-image: url("../images/apple-background.jpg");
   background-position: center bottom;
+  text-align: center;
+  color: #fff;
+}
+
+.main-text-wrapper {
+  background-color: transparent;
+  width: 780px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  background-color: transparent;
+  font-size: 4em;
+  font-weight: 100;
+} 
+
+.main-paragraph {
+  background-color: transparent;
+  font-size: 1.8em;
+}
+
+.main-link {
+  background-color: transparent;
+  font-size: 1.5em;
+}
+
+.main-link:hover {
+  text-decoration: underline;
 }
 
 /* Picture Links */
@@ -76,6 +118,7 @@ ul {
 
 footer {
   display: flex;
+  font-size: .7em;
 }
 
 footer ul {
