@@ -54,23 +54,19 @@ ul {
 .gradient {
   background: #777777;
   background: -moz-linear-gradient(top, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #777777), color-stop(15%, #666666), color-stop(50%, #666666), color-stop(50%, #555555), color-stop(85%, #666666), color-stop(100%, #777777));
   background: -webkit-linear-gradient(top, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
   background: -o-linear-gradient(top, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
   background: -ms-linear-gradient(top, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
   background: linear-gradient(to bottom, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#777777', endColorstr='#777777', GradientType=0);
 }
 
 .hover:hover {
   background: #666666;
   background: -moz-linear-gradient(top, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #666666), color-stop(15%, #555555), color-stop(50%, #555555), color-stop(50%, #444444), color-stop(85%, #555555), color-stop(100%, #666666));
   background: -webkit-linear-gradient(top, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
   background: -o-linear-gradient(top, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
   background: -ms-linear-gradient(top, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
   background: linear-gradient(to bottom, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#666666', GradientType=0);
   cursor: pointer;
 }
 
