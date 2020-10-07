@@ -18,6 +18,7 @@ ul {
   position: absolute;
   top: 82px;
   width: 100%;
+  padding: 0 20px;
 }
 
 .navbar-wrapper {
@@ -58,7 +59,7 @@ ul {
   background: -o-linear-gradient(top, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
   background: -ms-linear-gradient(top, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
   background: linear-gradient(to bottom, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#777777', endColorstr='#777777', GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#777777', endColorstr='#777777', GradientType=0);
 }
 
 .hover:hover {
@@ -69,7 +70,7 @@ ul {
   background: -o-linear-gradient(top, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
   background: -ms-linear-gradient(top, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
   background: linear-gradient(to bottom, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#666666', GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#666666', GradientType=0);
   cursor: pointer;
 }
 
@@ -101,14 +102,16 @@ ul {
 
 .main-section {
   max-width: 1440px;
-  min-height: 538px;
-  max-height: 1315px;
+  /*! min-height: 538px; */
+  /*! max-height: 1315px; */
   margin: 0 auto;
   padding-top: 140px;
   background-image: url("../images/apple-background.jpg");
   background-position: center bottom;
   text-align: center;
   color: #fff;
+  min-width: 1025px;
+  height: 659px;
 }
 
 .main-text-wrapper {
@@ -122,7 +125,7 @@ ul {
   font-size: 4.6em;
   font-weight: lighter;
   margin: 25px 0;
-} 
+}
 
 .main-paragraph {
   background-color: transparent;
@@ -184,7 +187,7 @@ ul {
   width: 980px;
   margin: 0 auto 20px;
   font-size: .8em;
-  letter-spacing: .05em;
+  letter-spacing: .04em;
   font-weight: bold;
 }
 
