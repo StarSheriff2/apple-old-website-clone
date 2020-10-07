@@ -84,9 +84,16 @@ ul {
   border-radius: 10px;
   height: 22px;
   width: 106px;
+  padding-left: 6px;
+}
+
+.search-input[type="search"]::placeholder {
+  font-family: "FontAwesome", sans-serif;
+  font-size: 12px;
 }
 
 /* Main Section */
+
 .main-section {
   max-width: 1440px;
   min-height: 538px;
@@ -160,11 +167,26 @@ ul {
   background-image: url("../images/apple-supplier.jpg");
 }
 
-footer {
-  display: flex;
-  font-size: .7em;
+/* Footer */
+
+.f-wrapper {
+  width: 980px;
+  margin: 0 auto;
 }
 
-footer ul {
+.f-wrapper p {
+  color: #444;
+  display: inline-block;
+}
+
+.f-wrapper nav {
+  display: inline-block;
+}
+
+.f-wrapper a {
+  color: #0088cc;
+}
+
+.f-nav-wrapper {
   display: flex;
 }
