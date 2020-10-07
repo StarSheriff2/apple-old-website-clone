@@ -98,8 +98,9 @@ ul {
   background-position: center bottom;
   text-align: center;
   color: #fff;
-  min-width: 1025px;
+  min-width: 1030px;
   height: 659px;
+  background-repeat: no-repeat;
 }
 
 .main-text-wrapper {
