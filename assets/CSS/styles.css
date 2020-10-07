@@ -11,41 +11,39 @@
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .navbar {
   position: absolute;
-  top: 8%;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 980px;
-  height: 36px;
-  background-color: transparent;
+  top: 82px;
+  width: 100%;
 }
 
 .navbar-wrapper {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr) 200px;
-  height: 100%;
+  display: flex;
+  width: 980px;
+  height: 36px;
+  margin: 0 auto;
 }
 
 .navbar-wrapper li {
   background-color: blueviolet;
   border: 1px solid black;
-  height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .logo-li img {
   width: auto;
-  height: 90%;
+  height: 30px;
 }
 
-.search-bar {
-  /*! width: 200px; */
-}
+/* .search-bar {
+ 
+} */
 
 .main-section {
   max-width: 1440px;
