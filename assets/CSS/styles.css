@@ -98,8 +98,6 @@ ul {
 
 .main-section {
   max-width: 1440px;
-  /*! min-height: 538px; */
-  /*! max-height: 1315px; */
   margin: 0 auto;
   padding-top: 140px;
   background-image: url("../images/apple-background.jpg");
