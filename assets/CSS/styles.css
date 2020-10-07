@@ -3,7 +3,7 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  font-size: .95em;
+  font-size: 0.95em;
 }
 
 /* Text Formatting */
@@ -29,7 +29,7 @@ ul {
   width: 980px;
   height: 36px;
   margin: 0 auto;
-  box-shadow: 0 1px 2px 0px #0004;
+  box-shadow: 0 1px 2px 0px #00000044;
 }
 
 .navbar-wrapper li {
@@ -52,21 +52,19 @@ ul {
 }
 
 .gradient {
-  background: #777777;
-  background: -moz-linear-gradient(top, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
-  background: -webkit-linear-gradient(top, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
-  background: -o-linear-gradient(top, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
-  background: -ms-linear-gradient(top, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
-  background: linear-gradient(to bottom, #777777 0%, #666666 15%, #666666 50%, #555555 50%, #666666 85%, #777777 100%);
+  background: #777;
+  background: -moz-linear-gradient(top, #777 0%, #666 15%, #666 50%, #555 50%, #666 85%, #777 100%);
+  background: -webkit-linear-gradient(top, #777 0%, #666 15%, #666 50%, #555 50%, #666 85%, #777 100%);
+  background: -o-linear-gradient(top, #777 0%, #666 15%, #666 50%, #555 50%, #666 85%, #777 100%);
+  background: linear-gradient(to bottom, #777 0%, #666 15%, #666 50%, #555 50%, #666 85%, #777 100%);
 }
 
 .hover:hover {
-  background: #666666;
-  background: -moz-linear-gradient(top, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
-  background: -webkit-linear-gradient(top, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
-  background: -o-linear-gradient(top, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
-  background: -ms-linear-gradient(top, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
-  background: linear-gradient(to bottom, #666666 0%, #555555 15%, #555555 50%, #444444 50%, #555555 85%, #666666 100%);
+  background: #666;
+  background: -moz-linear-gradient(top, #666 0%, #555 15%, #555 50%, #444 50%, #555 85%, #666 100%);
+  background: -webkit-linear-gradient(top, #666 0%, #555 15%, #555 50%, #444 50%, #555 85%, #666 100%);
+  background: -o-linear-gradient(top, #666 0%, #555 15%, #555 50%, #444 50%, #555 85%, #666 100%);
+  background: linear-gradient(to bottom, #666 0%, #555 15%, #555 50%, #444 50%, #555 85%, #666 100%);
   cursor: pointer;
 }
 
@@ -88,10 +86,6 @@ ul {
 .search-input[type="search"]::placeholder {
   font-family: "FontAwesome", sans-serif;
   font-size: 12px;
-}
-
-.search-bar:hover {
-  cursor: unset;
 }
 
 /* Main Section */
@@ -180,8 +174,8 @@ ul {
 .f-wrapper {
   width: 980px;
   margin: 0 auto 20px;
-  font-size: .8em;
-  letter-spacing: .04em;
+  font-size: 0.8em;
+  letter-spacing: 0.04em;
   font-weight: bold;
 }
 
@@ -198,7 +192,7 @@ ul {
 }
 
 .f-wrapper a {
-  color: #0088cc;
+  color: #08c;
 }
 
 .f-wrapper a:hover {
