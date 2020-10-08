@@ -10,7 +10,7 @@ We implemented the use of flexbox for the navbar and grid for the bottom picture
 
 This project was a great learning opportunity to implement the use of background images.
 
-![screenshot](/assets/README/Screenshot_Apple Website Clone.jpg)
+![screenshot](./assets/README/Screenshot_Apple_Website_Clone.jpg)
 
 ## Built With
 
