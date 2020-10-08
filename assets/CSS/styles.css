@@ -90,17 +90,19 @@ ul {
 
 /* Main Section */
 
+.main-section-wrapper {
+  height: 659px;
+}
+
 .main-section {
-  max-width: 1440px;
-  margin: 0 auto;
   padding-top: 140px;
   background-image: url("../images/apple-background.jpg");
   background-position: center bottom;
   text-align: center;
   color: #fff;
   min-width: 1030px;
-  height: 659px;
-  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .main-text-wrapper {
@@ -139,19 +141,16 @@ ul {
 
 .picture-links-wrapper {
   display: grid;
-  max-width: 1440px;
-  margin: 2px auto;
+  margin: 2px 0;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 2px;
 }
 
 .pictures {
-  display: inline-block;
-  flex: 1;
   height: 200px;
-  width: auto;
-  background-position: center;
+  background-position: center top;
   min-width: 256px;
+  background-size: cover;
 }
 
 .picture-1 {
