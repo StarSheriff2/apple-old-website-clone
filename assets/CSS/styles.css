@@ -95,12 +95,18 @@ ul {
 .main-section {
   padding-top: 140px;
   background-image: url("../images/apple-background.jpg");
-  background-position: center bottom;
+  background-position: center 98%;
   text-align: center;
   color: #fff;
   min-width: 1030px;
   background-size: cover;
-  height: 659px;
+  height: 538px;
+}
+
+@media (min-height: 831px) {
+  .main-section {
+    height: 659px;
+  }
 }
 
 .main-text-wrapper {
@@ -173,7 +179,7 @@ ul {
   width: 980px;
   margin: 0 auto 20px;
   font-size: 0.8em;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   font-weight: bold;
 }
 
