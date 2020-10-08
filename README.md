@@ -11,7 +11,7 @@ We implemented the use of flexbox for the navbar and grid for the bottom picture
 This project was a great learning opportunity to implement the use of background images.
 
 
-![screenshot](https://starsheriff2.github.io/apple-old-website-clone/)
+![screenshot](.assets/README/Screenshot_Apple Website Clone.jpg)
 
 ## Built With
 
