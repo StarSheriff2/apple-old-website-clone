@@ -6,6 +6,12 @@
   font-size: 0.95em;
 }
 
+html {
+  height: 100vh;
+  position: relative;
+  min-height: 830px;
+}
+
 /* Text Formatting */
 
 ul {
@@ -21,6 +27,7 @@ ul {
   top: 82px;
   width: 100%;
   padding: 0 20px;
+  z-index: 20;
 }
 
 .navbar-wrapper {
@@ -100,37 +107,41 @@ ul {
   color: #fff;
   min-width: 1030px;
   background-size: cover;
-  height: 538px;
-}
-
-@media (min-height: 831px) {
-  .main-section {
-    height: 659px;
-  }
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 292px;
 }
 
 .main-text-wrapper {
   background-color: transparent;
-  width: 780px;
   margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  bottom: 90px;
+  height: 300px;
 }
 
 .main-heading {
   background-color: transparent;
   font-size: 4.6em;
   font-weight: lighter;
-  margin: 25px 0;
+  margin: 25px auto;
+  width: 780px;
 }
 
 .main-paragraph {
   background-color: transparent;
   font-size: 2.4em;
-  margin: 10px 0;
+  margin: 10px auto;
+  width: 780px;
 }
 
 .main-link {
   background-color: transparent;
   font-size: 2em;
+  width: 780px;
+  margin: 45px auto 20px;
 }
 
 .main-link:hover {
@@ -148,6 +159,9 @@ ul {
   margin: 2px 0;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 2px;
+  position: absolute;
+  width: 100%;
+  bottom: 88px;
 }
 
 .pictures {
@@ -175,6 +189,12 @@ ul {
 
 /* Footer */
 
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+
 .f-wrapper {
   width: 980px;
   margin: 0 auto 20px;
@@ -186,13 +206,13 @@ ul {
 .f-wrapper p {
   color: #444;
   display: inline-block;
-  margin: 20px 0 0;
+  margin: 15px 0 0;
 }
 
 .f-wrapper nav {
   display: block;
   float: right;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .f-wrapper a {
