@@ -1,0 +1,208 @@
+* {
+  color: #fff;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+/* Text Formatting */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar */
+
+.navbar {
+  position: absolute;
+  top: 82px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.navbar-wrapper {
+  border: 1px solid#444;
+  border-right: none;
+  border-radius: 4px;
+  display: flex;
+  width: 980px;
+  height: 36px;
+  margin: 0 auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar-wrapper li {
+  border-right: 1px solid#444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  text-shadow: 0 0 2px #000;
+}
+
+.logo-li {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.logo-li img {
+  width: auto;
+  height: 30px;
+}
+
+.gradient {
+  background: #777;
+  background: -moz-linear-gradient(top, #777 0%, #666 15%, #666 50%, #555 50%, #666 85%, #777 100%);
+  background: -webkit-linear-gradient(top, #777 0%, #666 15%, #666 50%, #555 50%, #666 85%, #777 100%);
+  background: -o-linear-gradient(top, #777 0%, #666 15%, #666 50%, #555 50%, #666 85%, #777 100%);
+  background: linear-gradient(to bottom, #777 0%, #666 15%, #666 50%, #555 50%, #666 85%, #777 100%);
+}
+
+.hover:hover {
+  background: #666;
+  background: -moz-linear-gradient(top, #666 0%, #555 15%, #555 50%, #444 50%, #555 85%, #666 100%);
+  background: -webkit-linear-gradient(top, #666 0%, #555 15%, #555 50%, #444 50%, #555 85%, #666 100%);
+  background: -o-linear-gradient(top, #666 0%, #555 15%, #555 50%, #444 50%, #555 85%, #666 100%);
+  background: linear-gradient(to bottom, #666 0%, #555 15%, #555 50%, #444 50%, #555 85%, #666 100%);
+  cursor: pointer;
+}
+
+.search-bar {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 60px;
+}
+
+.search-input {
+  background-color: transparent;
+  border: 1px solid #444;
+  border-radius: 10px;
+  height: 22px;
+  width: 106px;
+  padding-left: 6px;
+}
+
+.search-input[type="search"]::placeholder {
+  font-family: "FontAwesome", sans-serif;
+  font-size: 12px;
+}
+
+/* Main Section */
+
+.main-section {
+  padding-top: 140px;
+  background-image: url("../images/apple-background.jpg");
+  background-position: center 98%;
+  text-align: center;
+  color: #fff;
+  min-width: 1030px;
+  background-size: cover;
+  height: 538px;
+}
+
+@media (min-height: 831px) {
+  .main-section {
+    height: 659px;
+  }
+}
+
+.main-text-wrapper {
+  background-color: transparent;
+  width: 780px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  background-color: transparent;
+  font-size: 4.6em;
+  font-weight: lighter;
+  margin: 25px 0;
+}
+
+.main-paragraph {
+  background-color: transparent;
+  font-size: 2.4em;
+  margin: 10px 0;
+}
+
+.main-link {
+  background-color: transparent;
+  font-size: 2em;
+}
+
+.main-link:hover {
+  text-decoration: underline;
+}
+
+.main-link i {
+  font-size: 1.2em;
+}
+
+/* Picture Links */
+
+.picture-links-wrapper {
+  display: grid;
+  margin: 2px 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2px;
+}
+
+.pictures {
+  height: 200px;
+  background-position: center top;
+  min-width: 256px;
+  background-size: cover;
+}
+
+.picture-1 {
+  background-image: url("../images/apple-iphone5.jpg");
+}
+
+.picture-2 {
+  background-image: url("../images/apple-iphone5c.jpg");
+}
+
+.picture-3 {
+  background-image: url("../images/apple-mac30.jpg");
+}
+
+.picture-4 {
+  background-image: url("../images/apple-supplier.jpg");
+}
+
+/* Footer */
+
+.f-wrapper {
+  width: 980px;
+  margin: 0 auto 20px;
+  font-size: 0.8em;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+}
+
+.f-wrapper p {
+  color: #444;
+  display: inline-block;
+  margin: 20px 0 0;
+}
+
+.f-wrapper nav {
+  display: block;
+  float: right;
+  margin-top: 20px;
+}
+
+.f-wrapper a {
+  color: #08c;
+}
+
+.f-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.f-nav-wrapper {
+  display: flex;
+}
