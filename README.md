@@ -2,9 +2,16 @@
 
 # Apple Website - Clone of old Webpage
 
-> A clone of the an old version of the ["Apple Website webpage"](https://web.archive.org/web/20140301004610/http://www.apple.com/). 
+> A clone of the an old version of the ["Apple Website webpage"](https://web.archive.org/web/20140301004610/http://www.apple.com/).
 
-![screenshot]()
+In this project we were required to align all elements using float, flex or grid; the CSS background image in the main section should cover the whole page irrespective of the screen size.
+
+We implemented the use of flexbox for the navbar and grid for the bottom picture links.
+
+This project was a great learning opportunity to implement the use of background images.
+
+
+![screenshot](https://starsheriff2.github.io/apple-old-website-clone/)
 
 ## Built With
 
@@ -13,7 +20,7 @@
 
 ## Live Demo
 
-[Live Demo](https://StarSheriff2.github.io/apple-old-website-clone/)
+[Live Demo](https://starsheriff2.github.io/apple-old-website-clone/)
 
 ## Authors
 
