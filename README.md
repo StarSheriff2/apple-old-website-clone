@@ -27,7 +27,7 @@ This project was a great learning opportunity to implement the use of background
 
 - GitHub: [@StarSheriff2](https://github.com/StarSheriff2)
 - Twitter: [@Turo_83](https://twitter.com/Turo_83)
-- LinkedIn: [Carlos Alvarez](https://www.linkedin.com/in/carlosalvarezveroy/)
+- LinkedIn: [Arturo Alvarez](https://www.linkedin.com/in/arturoalvarezv/)
 
 👤 **Breno Xavier**
 
