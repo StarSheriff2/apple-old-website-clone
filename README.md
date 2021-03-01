@@ -4,9 +4,9 @@
 
 > A clone of the an old version of the ["Apple Website webpage"](https://web.archive.org/web/20140301004610/http://www.apple.com/).
 
-In this project we were required to align all elements using float, flex or grid; the CSS background image in the main section should cover the whole page irrespective of the screen size.
+In this project we were required to align all elements in the page using float, flex, grid; the CSS background image in the main section should cover the whole page irrespective of the screen size.
 
-We implemented the use of flexbox for the navbar and grid for the bottom picture links.
+We implemented the use of flexbox for the navbar and CSS grids for the bottom picture links.
 
 This project was a great learning opportunity to implement the use of background images.
 
